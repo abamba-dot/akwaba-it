@@ -1689,8 +1689,15 @@ button {
     min-height: 70px;
     gap: 12px;
   }
-  .brand-mark img {
-    width: clamp(132px, 34vw, 168px);
+  .site-header .brand-mark {
+    width: 172px;
+    height: 58px;
+    overflow: hidden;
+  }
+  .site-header .brand-mark img {
+    width: 260px;
+    max-width: none;
+    transform: translate(-10px, -56px);
   }
 
   .section,
