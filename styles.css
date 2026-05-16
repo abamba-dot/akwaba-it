@@ -1689,15 +1689,36 @@ button {
     min-height: 70px;
     gap: 12px;
   }
+  .site-header .brand {
+    gap: 10px;
+    flex: 1 1 auto;
+  }
   .site-header .brand-mark {
-    width: 172px;
-    height: 58px;
-    overflow: hidden;
+    width: 54px;
+    height: 50px;
+    overflow: visible;
   }
   .site-header .brand-mark img {
-    width: 260px;
-    max-width: none;
-    transform: translate(-10px, -56px);
+    content: url("logo_mark.png");
+    width: 54px;
+    max-width: 54px;
+    transform: none;
+  }
+  .site-header .brand-copy {
+    display: grid;
+    gap: 1px;
+    line-height: 1.05;
+    min-width: 0;
+  }
+  .site-header .brand-copy strong {
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+    color: var(--green-deep);
+  }
+  .site-header .brand-copy span {
+    font-size: 0.58rem;
+    color: var(--muted);
+    white-space: nowrap;
   }
 
   .section,
