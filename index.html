@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AKWABA IT conçoit des solutions digitales et des produits SaaS utiles pour les réalités africaines."
+    />
+    <meta
+      property="og:title"
+      content="AKWABA IT — Studio digital & produits SaaS"
+    />
+    <meta
+      property="og:description"
+      content="Votre digital, enfin structuré. Sites, applications, branding et SaaS pour les marchés africains."
+    />
+    <title>AKWABA IT — Studio digital & produits SaaS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <!-- ── NAVIGATION ─────────────────────────────────────── -->
+      <header class="site-header" id="navbar">
+        <div class="container nav-inner">
+          <a href="#home" class="brand" aria-label="AKWABA IT accueil">
+            <span class="brand-mark">
+              <img
+                src="logo_akwba_it.png"
+                alt="Logo AKWABA IT"
+              />
+            </span>
+            <span class="brand-copy">
+              <strong>AKWABA IT</strong>
+              <span>Digital and innovation studio</span>
+            </span>
+          </a>
+
+          <nav class="desktop-nav" aria-label="Navigation principale">
+            <a href="#home" class="nav-link">Accueil</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#produits" class="nav-link">Produits</a>
+            <a href="#apropos" class="nav-link">Vision</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </nav>
+
+          <a href="#contact" class="nav-cta">Démarrer un projet</a>
+
+          <button
+            class="menu-toggle"
+            id="hamburger"
+            type="button"
+            aria-label="Ouvrir le menu"
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+
+        <div class="mobile-nav" id="mobile-nav">
+          <a href="#home" class="mobile-link">Accueil</a>
+          <a href="#services" class="mobile-link">Services</a>
+          <a href="#produits" class="mobile-link">Produits</a>
+          <a href="#apropos" class="mobile-link">Vision</a>
+          <a href="#contact" class="mobile-link">Contact</a>
+          <a href="#contact" class="mobile-cta">Démarrer un projet</a>
+        </div>
+      </header>
+
+      <main>
+        <!-- ── HERO — Layout cinématique · 3 strates ── -->
+        <section class="hero" id="home">
+          <!-- Fond / Ambiance -->
+          <div class="hero-orb hero-orb-a" aria-hidden="true"></div>
+          <div class="hero-orb hero-orb-b" aria-hidden="true"></div>
+          <div class="hero-grid-bg" aria-hidden="true"></div>
+
+          <!-- Strate 1 — Headline zone -->
+          <div class="hero-headline reveal">
+            <div class="container hero-headline-inner">
+              <span class="hero-badge"
+                >Abidjan · Côte d'Ivoire · Studio digital</span
+              >
+
+              <h1 class="hero-title">
+                Votre digital,<br />
+                <em>enfin structuré.</em>
+              </h1>
+
+              <p class="hero-lead">
+                AKWABA IT transforme votre présence digitale en avantage
+                compétitif — sites, applications, branding et produits SaaS
+                pensés pour les réalités africaines.
+              </p>
+
+              <div class="hero-cta-group">
+                <a href="#contact" class="button button-primary"
+                  >Démarrer mon projet</a
+                >
+                <a href="#services" class="button button-ghost"
+                  >Découvrir nos services</a
+                >
+              </div>
+
+              <ul class="hero-reassurance" aria-label="Garanties">
+                <li>Réponse en 24h</li>
+                <li>Basé à Abidjan</li>
+                <li>Accompagnement sur mesure</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Strate 2 — Proof strip (bande pleine largeur) -->
+          <div class="hero-proof-strip reveal">
+            <div class="proof-strip-inner">
+              <div class="proof-stat">
+                <strong class="proof-stat-value">Sur mesure</strong>
+                <span class="proof-stat-label"
+                  >Solutions pensées<br />pour votre contexte</span
+                >
+              </div>
+              <div class="proof-sep" aria-hidden="true"></div>
+              <div class="proof-stat">
+                <strong class="proof-stat-value count" data-count="4">0</strong>
+                <span class="proof-stat-label"
+                  >Produits SaaS<br />en cours</span
+                >
+              </div>
+              <div class="proof-sep" aria-hidden="true"></div>
+              <div class="proof-stat">
+                <strong class="proof-stat-value count" data-count="4">0</strong>
+                <span class="proof-stat-label">Secteurs<br />ciblés</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Scroll hint -->
+          <div class="hero-scroll-hint" aria-hidden="true">
+            <span>Défiler</span>
+            <svg
+              width="16"
+              height="24"
+              viewBox="0 0 16 24"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path
+                d="M8 5v14M8 19l-4-4M8 19l4-4"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </section>
+
+        <!-- ── PAIN — T09: Douleur AVANT les bénéfices ──────── -->
+        <section class="pain-section" aria-labelledby="pain-heading">
+          <div class="container">
+            <div class="pain-header reveal">
+              <span class="pain-tag">Le problème qu'on résout</span>
+              <h2 id="pain-heading" class="pain-title">
+                Trop d'entreprises africaines perdent<br />du terrain à cause
+                d'un digital mal structuré.
+              </h2>
+            </div>
+
+            <div class="pain-grid">
+              <article class="pain-card reveal">
+                <span class="pain-number">01</span>
+                <h3>Une présence qui ne reflète pas la réalité</h3>
+                <p>
+                  Votre entreprise est sérieuse. Votre site ne le dit pas. Les
+                  clients repartent sans comprendre ce que vous faites.
+                </p>
+              </article>
+
+              <article class="pain-card reveal">
+                <span class="pain-number">02</span>
+                <h3>Des outils éparpillés sans cohérence</h3>
+                <p>
+                  Vous gérez vos opérations avec plusieurs outils qui ne se
+                  parlent pas. Résultat : erreurs, pertes de temps, décisions
+                  mal informées.
+                </p>
+              </article>
+
+              <article class="pain-card reveal">
+                <span class="pain-number">03</span>
+                <h3>Le digital reste flou et coûteux</h3>
+                <p>
+                  Vous savez qu'il faut investir dans le digital — mais vous ne
+                  savez pas par où commencer ni comment éviter les pièges.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── SERVICES — T06: La réponse après la douleur ──── -->
+        <section class="section services-section" id="services">
+          <div class="container">
+            <div class="section-head reveal">
+              <span class="section-tag">Notre réponse</span>
+              <h2>
+                Quatre services conçus<br />pour structurer votre croissance.
+              </h2>
+            </div>
+
+            <div class="service-list">
+              <article class="service-item reveal">
+                <div class="service-number">01</div>
+                <div class="service-content">
+                  <h3>Développement web & mobile</h3>
+                  <p>
+                    Des plateformes, sites et applications robustes qui
+                    deviennent la base de vos opérations. Conçus pour durer et
+                    pour performer.
+                  </p>
+                </div>
+                <div class="service-tags">
+                  <span>Sites premium</span>
+                  <span>Applications métier</span>
+                  <span>Mobile</span>
+                </div>
+              </article>
+
+              <article class="service-item reveal">
+                <div class="service-number">02</div>
+                <div class="service-content">
+                  <h3>Design graphique & image de marque</h3>
+                  <p>
+                    Une identité claire, crédible et mémorable. Un branding qui
+                    inspire confiance dès le premier contact.
+                  </p>
+                </div>
+                <div class="service-tags">
+                  <span>Branding</span>
+                  <span>UI design</span>
+                  <span>Supports visuels</span>
+                </div>
+              </article>
+
+              <article class="service-item reveal">
+                <div class="service-number">03</div>
+                <div class="service-content">
+                  <h3>Marketing digital</h3>
+                  <p>
+                    Votre message clarifié, votre visibilité organisée, votre
+                    acquisition améliorée. Du contenu stratégique aux campagnes
+                    ciblées.
+                  </p>
+                </div>
+                <div class="service-tags">
+                  <span>Stratégie</span>
+                  <span>Campagnes</span>
+                  <span>Contenu</span>
+                </div>
+              </article>
+
+              <article class="service-item reveal">
+                <div class="service-number">04</div>
+                <div class="service-content">
+                  <h3>Conseil financier & gestion</h3>
+                  <p>
+                    Des décisions mieux structurées, des priorités claires, des
+                    outils adaptés. Le conseil qui soutient une croissance
+                    durable.
+                  </p>
+                </div>
+                <div class="service-tags">
+                  <span>Business plan</span>
+                  <span>Pilotage</span>
+                  <span>Organisation</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── AVANT/APRÈS ────────────────────────────────────── -->
+        <section class="transform-section">
+          <div class="container">
+            <div class="transform-header reveal">
+              <span class="section-tag">La transformation</span>
+              <h2>De la confusion à la clarté.</h2>
+            </div>
+
+            <div class="transform-grid">
+              <div class="transform-before reveal">
+                <span class="transform-label">Avant AKWABA IT</span>
+                <ul class="transform-list">
+                  <li>Site outdaté qui manque de crédibilité</li>
+                  <li>Outils éparpillés et non synchronisés</li>
+                  <li>Identité visuelle floue ou inexistante</li>
+                  <li>Pas de stratégie digitale cohérente</li>
+                  <li>Investissements sans retour mesurable</li>
+                </ul>
+              </div>
+
+              <div class="transform-arrow" aria-hidden="true">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                  <path
+                    d="M8 20h24M24 12l8 8-8 8"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <div class="transform-after reveal">
+                <span class="transform-label after">Avec AKWABA IT</span>
+                <ul class="transform-list">
+                  <li>Présence digitale qui inspire confiance</li>
+                  <li>Outils intégrés et logique métier unifiée</li>
+                  <li>Image de marque forte et cohérente</li>
+                  <li>Stratégie claire et résultats mesurables</li>
+                  <li>Investissements guidés par l'impact</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── PRODUITS ─────────────────────────────────────── -->
+        <section class="section roadmap-section" id="produits">
+          <div class="container">
+            <div class="roadmap-head reveal">
+              <span class="section-tag">Nos produits SaaS</span>
+              <h2>
+                Une gamme logicielle pensée<br />pour les réalités africaines.
+              </h2>
+              <p>
+                AKWABA IT ne se contente pas d'accompagner — nous construisons.
+                Ces quatre produits transformeront des secteurs entiers.
+              </p>
+            </div>
+
+            <div class="products-grid">
+              <article class="product-card reveal">
+                <span class="product-sector">Santé</span>
+                <h3>Pharmacie en ligne</h3>
+                <p>
+                  Trouvez les pharmacies de garde, vérifiez la disponibilité de
+                  vos médicaments et obtenez une estimation des prix —
+                  rapidement, simplement, depuis votre téléphone.
+                </p>
+                <div class="feature-points">
+                  <span>Pharmacies de garde</span>
+                  <span>Disponibilité médicaments</span>
+                  <span>Estimation des prix</span>
+                  <span>Orientation rapide</span>
+                </div>
+                <div class="feature-status">
+                  <span class="status-dot"></span>
+                  Disponible · En ligne
+                </div>
+              </article>
+
+              <article class="product-card reveal">
+                <span class="product-sector">Éducation</span>
+                <h3>Gestion d'école</h3>
+                <p>
+                  Centralisez les inscriptions, générez les bulletins, gérez les
+                  emplois du temps et facilitez la communication entre l'école
+                  et les parents.
+                </p>
+                <div class="feature-points">
+                  <span>Inscriptions élèves</span>
+                  <span>Bulletins de notes</span>
+                  <span>Emplois du temps</span>
+                  <span>Communication parents</span>
+                </div>
+                <div class="feature-status">
+                  <span class="status-dot"></span>
+                  Disponible · En ligne
+                </div>
+              </article>
+
+              <article class="product-card reveal">
+                <span class="product-sector">Commerce</span>
+                <h3>Gestion de stock</h3>
+                <p>
+                  Suivez chaque mouvement de marchandise, recevez des alertes
+                  avant la rupture et générez des rapports d'inventaire en temps
+                  réel.
+                </p>
+                <div class="feature-points">
+                  <span>Entrées / Sorties</span>
+                  <span>Alertes de rupture</span>
+                  <span>Rapports d'inventaire</span>
+                  <span>Multi-entrepôts</span>
+                </div>
+                <div class="feature-status">
+                  <span class="status-dot"></span>
+                  Disponible · En ligne
+                </div>
+              </article>
+
+              <article class="product-card reveal">
+                <span class="product-sector">Communautés</span>
+                <h3>Gestion de dîme</h3>
+                <p>
+                  Enregistrez les contributions, gérez le registre des membres
+                  et produisez des états financiers clairs pour votre
+                  communauté.
+                </p>
+                <div class="feature-points">
+                  <span>Suivi des dons</span>
+                  <span>Registre des membres</span>
+                  <span>États financiers</span>
+                  <span>Export PDF</span>
+                </div>
+                <div class="feature-status">
+                  <span class="status-dot"></span>
+                  Disponible · En ligne
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── CTA MID-PAGE — T43: Hiérarchie CTA ─────────── -->
+        <section class="cta-section">
+          <div class="container">
+            <div class="cta-block reveal">
+              <h2>Prêt à structurer<br />votre présence digitale ?</h2>
+              <p>
+                Discutons de votre besoin et voyons comment poser une base
+                digitale claire, utile et durable.
+              </p>
+              <a href="#contact" class="button button-primary button-large"
+                >Parler à l'équipe</a
+              >
+              <p class="cta-micro">
+                Gratuit · Réponse en 24h · Basé à Abidjan, Côte d'Ivoire
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── VISION ─────────────────────────────────────────── -->
+        <section class="section vision-section" id="apropos">
+          <div class="container vision-layout">
+            <div class="vision-copy reveal">
+              <span class="section-tag">Notre vision</span>
+              <h2>
+                Akwaba signifie bienvenue.<br />Nous construisons l'utile.
+              </h2>
+              <p>
+                Nous sommes convaincus que le continent africain mérite des
+                outils digitaux conçus pour ses réalités — pas des copies mal
+                adaptées d'ailleurs. Chaque service que nous livrons, chaque
+                produit que nous développons, porte cette conviction.
+              </p>
+              <p>
+                AKWABA IT n'est pas seulement une agence. Nous nous positionnons
+                comme un éditeur logiciel qui construit des solutions durables
+                pour l'éducation, la santé, le commerce et les communautés.
+              </p>
+            </div>
+
+            <div class="vision-values reveal">
+              <article class="value-card">
+                <strong>Contexte africain</strong>
+                <p>
+                  Des solutions pensées pour les usages, les contraintes et les
+                  opportunités locales.
+                </p>
+              </article>
+              <article class="value-card">
+                <strong>Clarté avant tout</strong>
+                <p>
+                  Des interfaces simples, des messages clairs, des résultats
+                  mesurables.
+                </p>
+              </article>
+              <article class="value-card">
+                <strong>Ambition produit</strong>
+                <p>
+                  Nous préparons une gamme logicielle qui accompagnera la
+                  transformation numérique africaine.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── CONTACT ────────────────────────────────────────── -->
+        <section class="section contact-section" id="contact">
+          <div class="container contact-layout">
+            <div class="contact-info reveal">
+              <span class="section-tag">Contact</span>
+              <h2>Discutons de votre projet.</h2>
+              <p>
+                Que vous ayez un besoin précis ou simplement envie d'explorer
+                les possibilités — nous sommes disponibles pour un échange sans
+                engagement.
+              </p>
+
+              <div class="contact-details">
+                <a
+                  href="https://wa.me/2250705688744"
+                  class="contact-item"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <span class="contact-icon contact-icon-whatsapp" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <path d="M12.04 3.5a8.43 8.43 0 0 0-7.25 12.73l-.93 3.43 3.5-.92a8.42 8.42 0 1 0 4.68-15.24Zm0 1.5a6.93 6.93 0 0 1 5.88 10.6 6.91 6.91 0 0 1-9.98 1.9l-.31-.19-2.07.54.55-2.02-.2-.32A6.93 6.93 0 0 1 12.04 5Zm-2.36 3.55c-.16-.35-.33-.36-.48-.37h-.41c-.14 0-.37.05-.56.26-.19.21-.73.71-.73 1.74s.75 2.02.85 2.16c.1.14 1.44 2.3 3.58 3.13 1.77.7 2.13.56 2.51.52.38-.04 1.23-.5 1.4-.99.17-.49.17-.91.12-.99-.05-.09-.19-.14-.4-.25-.21-.1-1.23-.61-1.42-.68-.19-.07-.33-.1-.48.1-.14.21-.55.68-.67.82-.12.14-.25.16-.46.05-.21-.1-.88-.32-1.68-1.03-.62-.55-1.04-1.24-1.16-1.45-.12-.21-.01-.32.09-.43.09-.09.21-.25.31-.37.1-.12.14-.21.21-.35.07-.14.04-.26-.02-.37-.05-.1-.46-1.14-.66-1.51Z" />
+                    </svg>
+                  </span>
+                  <span>WhatsApp : +225 07 05 68 87 44</span>
+                </a>
+                <a href="mailto:akwabait@gmail.com" class="contact-item">
+                  <span class="contact-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" focusable="false">
+                      <path d="M4.75 6.75h14.5v10.5H4.75V6.75Zm1.5 1.58v7.42h11.5V8.33l-5.28 4.33a.75.75 0 0 1-.94 0L6.25 8.33Zm10.91-.08H6.84L12 12.48l5.16-4.23Z" />
+                    </svg>
+                  </span>
+                  <span>akwabait@gmail.com</span>
+                </a>
+                <div class="contact-item">Abidjan, Côte d'Ivoire</div>
+                <div class="contact-item">Lun–Ven · 8h30–18h00</div>
+              </div>
+            </div>
+
+            <div class="contact-form-wrap reveal">
+              <form id="contact-form" class="contact-form" novalidate>
+                <div class="form-row">
+                  <label>
+                    <span>Nom complet</span>
+                    <input
+                      type="text"
+                      id="contact-name"
+                      name="nom"
+                      placeholder="Votre nom"
+                      autocomplete="name"
+                      minlength="2"
+                      required
+                    />
+                    <small class="form-error" data-error-for="nom"></small>
+                  </label>
+                  <label>
+                    <span>Email</span>
+                    <input
+                      type="email"
+                      id="contact-email"
+                      name="email"
+                      placeholder="email@exemple.com"
+                      autocomplete="email"
+                      required
+                    />
+                    <small class="form-error" data-error-for="email"></small>
+                  </label>
+                </div>
+
+                <label>
+                  <span>Téléphone</span>
+                  <input
+                    type="tel"
+                    id="contact-phone"
+                    name="telephone"
+                    placeholder="+225 XX XX XX XX XX"
+                    autocomplete="tel"
+                  />
+                  <small class="form-error" data-error-for="telephone"></small>
+                </label>
+
+                <label>
+                  <span>Votre besoin</span>
+                  <select id="contact-service" name="service" required>
+                    <option value="">Choisissez une option</option>
+                    <option>Développement web et mobile</option>
+                    <option>Design graphique</option>
+                    <option>Marketing digital</option>
+                    <option>Conseil financier</option>
+                    <option>Produit SaaS</option>
+                  </select>
+                  <small class="form-error" data-error-for="service"></small>
+                </label>
+
+                <label>
+                  <span>Message</span>
+                  <textarea
+                    id="contact-message"
+                    name="message"
+                    rows="5"
+                    placeholder="Décrivez votre projet ou votre besoin"
+                    minlength="20"
+                    required
+                  ></textarea>
+                  <small class="form-error" data-error-for="message"></small>
+                </label>
+
+                <button type="submit" class="button button-primary form-submit">
+                  Envoyer le message
+                </button>
+                <p class="form-status" id="form-status" aria-live="polite"></p>
+                <p class="form-note">
+                  Nous répondons dans les 24h · Aucun engagement
+                </p>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div class="success-modal" id="success-modal" aria-hidden="true">
+        <div class="success-modal__backdrop" data-close-modal></div>
+        <div
+          class="success-modal__dialog"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="success-modal-title"
+          aria-describedby="success-modal-text"
+        >
+          <button
+            type="button"
+            class="success-modal__close"
+            aria-label="Fermer la confirmation"
+            data-close-modal
+          >
+            ×
+          </button>
+          <div class="success-modal__icon" aria-hidden="true">✓</div>
+          <span class="success-modal__eyebrow">Demande envoyee</span>
+          <h3 id="success-modal-title">Merci pour votre confiance.</h3>
+          <p id="success-modal-text">
+            Votre demande a bien ete prise en compte. Notre equipe vous
+            recontactera sous 24 heures ouvrables pour faire le point avec
+            vous.
+          </p>
+          <button
+            type="button"
+            class="button button-primary success-modal__action"
+            data-close-modal
+          >
+            Parfait
+          </button>
+        </div>
+      </div>
+
+      <!-- ── FOOTER ───────────────────────────────────────────── -->
+      <footer class="site-footer">
+        <div class="container footer-layout">
+          <a href="#home" class="brand footer-brand">
+            <span class="brand-mark">
+              <img
+                src="logo_akwba_it.png"
+                alt="Logo AKWABA IT"
+              />
+            </span>
+            <span class="brand-copy">
+              <strong>AKWABA IT</strong>
+              <span>Le digital qui prépare l'avenir</span>
+            </span>
+          </a>
+
+          <nav class="footer-nav" aria-label="Navigation secondaire">
+            <a href="#services">Services</a>
+            <a href="#produits">Produits</a>
+            <a href="#apropos">Vision</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <p class="footer-copy">© 2026 AKWABA IT · Tous droits réservés</p>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
